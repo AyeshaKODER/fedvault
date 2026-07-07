@@ -49,16 +49,16 @@ To reduce communication overhead, FedVault applies top-K sparsification before t
 
 ## Tech Stack
 
-| Layer | Technology |
-|---|---|
-| Backend API | FastAPI + Uvicorn |
-| Machine Learning | PyTorch + torchvision (ResNet-18) |
-| Explainability | Custom Grad-CAM on ResNet-18 layer4 |
-| Privacy | Top-K gradient compression |
-| Security | JWT authentication, cosine similarity adversarial detection |
-| Frontend Dashboard | Streamlit + Plotly |
-| Image Processing | OpenCV + Pillow |
-| Data | Synthetic chest X-ray images (224x224 PNG) |
+| Layer              | Technology                                                  |
+| ------------------ | ----------------------------------------------------------- |
+| Backend API        | FastAPI + Uvicorn                                           |
+| Machine Learning   | PyTorch + torchvision (ResNet-18)                           |
+| Explainability     | Custom Grad-CAM on ResNet-18 layer4                         |
+| Privacy            | Top-K gradient compression                                  |
+| Security           | JWT authentication, cosine similarity adversarial detection |
+| Frontend Dashboard | Streamlit + Plotly                                          |
+| Image Processing   | OpenCV + Pillow                                             |
+| Data               | Synthetic chest X-ray images (224x224 PNG)                  |
 
 ---
 
